@@ -50,15 +50,10 @@ open **Actions → Python CI → the failed run → test** to inspect the assert
 Restore the correct assertion in a new commit and push; the next run should be
 green after it completes.
 
-## Repository publication
-
-Create a public or private GitHub repository named
-`smart-build-cache-invalidation`, then run:
+## GitHub repository
 
 ```powershell
-git remote add origin https://github.com/<YOUR-USERNAME>/smart-build-cache-invalidation.git
 git push -u origin main
 ```
 
-Replace `<YOUR-USERNAME>` with your GitHub username. GitHub may ask you to
-authenticate through Git Credential Manager.
+Public repository: https://github.com/mananyamallikarjun16/smart-build-cache-invalidation
